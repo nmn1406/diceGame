@@ -9,8 +9,8 @@ document.querySelector('button').addEventListener('click' , function(){
   const player1Dice = document.querySelector('.img1');
   const player2Dice = document.querySelector('.img2');
   //initialising two variables with value to the both images sources
-  var player1DiceSrc = "images/Dice"+randomNumber1+".png";
-  var player2DiceSrc = "images/Dice"+randomNumber2+".png";
+  var player1DiceSrc = "images/dice"+randomNumber1+".png";
+  var player2DiceSrc = "images/dice"+randomNumber2+".png";
   //setting both images src in the HTML
   player1Dice.setAttribute('src' , player1DiceSrc);
   player2Dice.setAttribute('src' , player2DiceSrc);
